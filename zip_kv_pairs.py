@@ -1,5 +1,9 @@
-# ============================================================================================================================
-# Generate dict of sheet1 column ids matched with equivalent sheet2 column ids, stored as {sheet1 column id: sheet2 column id}
-# ============================================================================================================================
+# Generate a 
 
-sheet1_sheet2_columnIDs_combined = dict(zip(sheet1_columnIDs_from.values(), sheet2_columnIDs_to.values()))
+dict1 = {'a':bin(0b0000), 'b':bin(0b0001), 'c':bin(0b0010), 'd':bin(0b0011), 'e':bin(0b0100), 'f':bin(0b0101), 'g':bin(0b0110), 'h':bin(0b0111)}
+
+dict2 = {'a':0, 'b':1, 'c':2, 'd':3, 'e':4, 'f':5, 'g':6, 'h':7}
+
+zipped_kv_pairs = dict(zip(dict1.values(), dict2.values()))
+
+print(zipped_kv_pairs)
