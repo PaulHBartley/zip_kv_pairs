@@ -1,6 +1,6 @@
 # zip_kv_pairs
 
-This is a short Python script demonstrating how to take values from two separate dictionaries and fuse them together as key:value pairs in a single dictionary.
+This is a short Python script demonstrating how to take values from two separate dictionaries and fuse them together as key:value pairs in one single dictionary.
 
 # Script Operation
 
